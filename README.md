@@ -78,8 +78,15 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
         * Regidrago: 149
         * Calyrex: 3807
 * **Mystery Gift**: Mystery Gifts collected by a hard-working bot.
-    * Gen 8 Cap Pikachu: 5134
     * KIBO Pikachu: 756
+    * Original Cap Pikachu: 645
+	* Hoenn Cap Pikachu: 641
+	* Sinnoh Cap Pikachu: 637
+	* Unova Cap Pikachu: 635
+	* Kalos Cap Pikachu: 633
+	* Alola Cap Pikachu: 656
+	* Partner Cap Pikachu: 640
+	* World Cap Pikachu: 647
     * VGC20 Porygon2: 1328
 * **Raid**: Pokémon sent for seed checking. OT names are redacted. 20312
 * **Restricted Sparring**: Dumped opponent Pokémon from the IoA Restricted Sparring challenge. 801
