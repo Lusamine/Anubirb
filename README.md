@@ -110,3 +110,12 @@ I prefer to keep this limited to my own files since I know how they were obtaine
 
 ### Can I request a particular encounter to be added?  
 Yes, as long as it's easy to automate sampling.
+
+### How do I download only specific folders and not the entire repository?  
+There are many ways to do this. Personally, I manage this using git command line tools for sparse checkouts.  As an example:  
+```
+git clone --filter=blob:none --sparse https://github.com/Lusamine/Anubirb.git
+git sparse-checkout init
+git sparse-checkout set <directory1> <directory2>
+```
+For example, `git sparse-checkout set "Mystery Gift/025-04 Unova Cap Pikachu"` will get the entire folder of Unova Cap Pikachu and nothing else. Changing what you have set will erase files that are no longer set and download any new ones.
