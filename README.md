@@ -4,6 +4,7 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
 * **Egg**: 30885
 * **Encounter Slots**:
     * Fishing - Route 2: 39343
+    * Overworld - Route 1 (Captured Wooloo): 63324
     * Overworld - Glimwood Tangle (SH ENG): 5524
     * Overworld - Glimwood Tangle (SH KOR): 46522
     * Overworld - Glimwood Tangle (SW): 205244
@@ -77,7 +78,7 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
         * Regieleki: 4709
         * Regidrago: 149
         * Calyrex: 3807
-* **Mystery Gift**: Mystery Gifts collected by a hard-working bot.
+* **Mystery Gift**: Collected from official servers by a hard-working bot.
     * KIBO Pikachu: 756
     * Original Cap Pikachu: 645
 	* Hoenn Cap Pikachu: 641
@@ -88,7 +89,7 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
 	* Partner Cap Pikachu: 640
 	* World Cap Pikachu: 647
     * VGC20 Porygon2: 1328
-* **Raid**: Pokémon sent for seed checking. OT names are redacted. 20312
+* **Raid**: 20312
 * **Restricted Sparring**: Dumped opponent Pokémon from the IoA Restricted Sparring challenge. 801
 
 # FAQ
@@ -96,14 +97,19 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
 ### How did you get these files?  
 These were all dumped directly from the game using CFW.
 
-### Are they all legal/legitimate?  
-All of these files were dumped from an unmodified stock game except for the shiny Zacian directory, which used a ROM edit to remove the shiny lock for science. They are intended to be used to answer questions about the game's mechanics empirically. If you edit anything here, it is by definition "not legitimate."
+### How legitimate are these files?  
+For the purposes of data analysis, all of these are unmodified files dumped from an unmodified stock game except for the following:  
+* The shiny Zacian directory used a ROM edit to remove the shiny lock.
+* Any Pokémon with the Original Trainer name "Redact" was obtained from another user and the OT was changed to maintain their privacy.
 
 ### Why are some files missing met location and trainer data?  
-Many wild encounters are dumped from RAM and the Pokémon was never captured to save time. This still allows for analysis of all other traits except for a few which are generated after capture. For example, Mark data is available on partial files for all marks except Curry Mark.
+Many wild encounters are dumped from RAM and the Pokémon was never captured to save time. This still allows for analysis of all other traits except for a few which are generated after capture.
+
+### Can I trade them in legitimate trading communities?  
+Complete Pokémon should be considered clones. Partial Pokémon require further editing which immediately makes them illegitimate. Whether anything here is safe to trade depends on your specific community's rules. Please be considerate and check before trading anything from here as legitimate.
 
 ### Can I use these files?  
-Feel free to use them for whatever reason, be it research or templates for Pokémon edits. Please use this resource responsibly.
+Yes. As above, please be responsible with them if you plan to trade them to others.
 
 ### Can I contribute files?  
 I prefer to keep this limited to my own files since I know how they were obtained, but we can discuss if you have something interesting.
@@ -112,7 +118,7 @@ I prefer to keep this limited to my own files since I know how they were obtaine
 Yes, as long as it's easy to automate sampling.
 
 ### How do I download only specific folders and not the entire repository?  
-There are many ways to do this. Personally, I manage this using git command line tools for sparse checkouts.  As an example:  
+There are many ways to do this. I manage this locally using git command line tools for sparse checkouts.  As an example:  
 ```
 git clone --filter=blob:none --sparse https://github.com/Lusamine/Anubirb.git
 git sparse-checkout init
