@@ -4,11 +4,11 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
 * **Egg**: 30885
 * **Encounter Slots**:
     * Fishing - Route 2: 39343
-    * Overworld - Route 1 (Captured Wooloo): 63324
     * Overworld - Glimwood Tangle (SH ENG): 5524
     * Overworld - Glimwood Tangle (SH KOR): 46522
     * Overworld - Glimwood Tangle (SW): 205244
     * Overworld - Old Cemetery: 1010
+    * Overworld - Route 1 (Captured Wooloo): 63324
     * Overworld - Slumbering Weald: 6067
     * Tree - Stepping-Stone Sea: 7509
 * **Encounter Static**:
@@ -98,7 +98,7 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
 These were all dumped directly from the game using CFW.
 
 ### How legitimate are these files?  
-For the purposes of data analysis, all of these are unmodified files dumped from an unmodified stock game except for the following:  
+For the purpose of data analysis, all of these are unmodified files dumped from an unmodified stock game except for the following:  
 * The shiny Zacian directory used a ROM edit to remove the shiny lock.
 * Any Pokémon with the Original Trainer name "Redact" was obtained from another user and the OT was changed to maintain their privacy.
 
