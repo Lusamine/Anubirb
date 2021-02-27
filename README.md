@@ -78,6 +78,7 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
         * Regieleki: 4709
         * Regidrago: 149
         * Calyrex: 3807
+        * Motostoke Stadium: 5
 * **Mystery Gift**: Collected from official servers by a hard-working bot.
     * KIBO Pikachu: 756
     * Original Cap Pikachu: 645
