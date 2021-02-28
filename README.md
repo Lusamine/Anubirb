@@ -119,7 +119,11 @@ I prefer to keep this limited to my own files since I know how they were obtaine
 ### Can I request a particular encounter to be added?  
 Yes, as long as it's easy to automate sampling.
 
-### How do I download only specific folders and not the entire repository?  
+### How do I search for specific files to download?  
+Look at this repository on GitHub web and type "t". It should activate the file finder. You should be able to search by species, nature, IVs, OT, TID, ball, and the checksum-EC string. This make take a few seconds since there are many files.  
+![image](https://user-images.githubusercontent.com/30205550/109421984-39b73100-799f-11eb-84bf-17d1cb4c2e15.png)
+
+### How do I download a specific folder and not the entire repository?  
 There are many ways to do this. I manage this locally using git command line tools for sparse checkouts.  As an example:  
 ```
 git clone --filter=blob:none --sparse https://github.com/Lusamine/Anubirb.git
