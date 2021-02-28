@@ -81,6 +81,7 @@ A collection of sample Pokémon encounters from Pokémon Sword and Shield.
         * Motostoke Stadium: 5
 * **Mystery Gift**: Collected from official servers by a hard-working bot.
     * KIBO Pikachu: 756
+    * P25 Sing Pikachu: 2016
     * Original Cap Pikachu: 645
 	* Hoenn Cap Pikachu: 641
 	* Sinnoh Cap Pikachu: 637
