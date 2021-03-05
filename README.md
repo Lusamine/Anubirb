@@ -11,6 +11,7 @@ These were all dumped directly from the game using CFW.
 ### How legitimate are these files?  
 For the purpose of data analysis, all of these are unmodified files dumped from an unmodified stock game except for the following:  
 * The shiny Zacian directory used a ROM edit to remove the shiny lock.
+* HOMEbound Pokémon from Pokémon GO were dumped from HOME as they cannot be moved into Sword/Shield.
 * Any Pokémon with the Original Trainer name "Redact" was obtained from another user and the OT was changed to maintain their privacy.
 
 ### Why are some files missing met location and trainer data?  
