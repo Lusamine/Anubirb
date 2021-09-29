@@ -33,6 +33,8 @@ Yes, as long as it's easy to automate sampling.
 Look at this repository on GitHub web and type "t". It should activate the file finder. You should be able to search by species, nature, IVs, OT, TID, ball, and the checksum-EC string. This make take a few seconds since there are many files.  
 ![image](https://user-images.githubusercontent.com/30205550/109421984-39b73100-799f-11eb-84bf-17d1cb4c2e15.png)
 
+If this doesn't work for you, you can use the [Advanced Search](https://github.com/search/advanced?q=repo%3ALusamine%2FAnubirb&type=Code) and enter your search in "Code options > With this file name".
+
 ### How do I download a specific folder and not the entire repository?  
 There are many ways to do this. I manage this locally using git command line tools for sparse checkouts.  As an example:  
 ```
