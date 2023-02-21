@@ -13,6 +13,7 @@ For the purpose of data analysis, all of these are unmodified files dumped from 
 * The shiny Zacian directory used a ROM edit to remove the shiny lock.
 * HOMEbound Pokémon from Pokémon GO were dumped from HOME as they cannot be moved into Sword/Shield.
 * Any Pokémon with the Original Trainer name "Redact" was obtained from another user and the OT was changed to maintain their privacy.
+* Shiny Pokémon from SV are the result of testing the mechanics of Meal Power and Union Circle. They are legal, not legitimate.
 
 ### Why are some files missing met location and trainer data?  
 Many wild encounters are dumped from RAM and the Pokémon was never captured to save time. This still allows for analysis of all other traits except for a few which are generated after capture.
@@ -30,10 +31,7 @@ I prefer to keep this limited to my own files since I know how they were obtaine
 Yes, as long as it's easy to automate sampling.
 
 ### How do I search for specific files to download?  
-Look at this repository on GitHub web and type "t". It should activate the file finder. You should be able to search by species, nature, IVs, OT, TID, ball, and the checksum-EC string. This make take a few seconds since there are many files.  
-![image](https://user-images.githubusercontent.com/30205550/109421984-39b73100-799f-11eb-84bf-17d1cb4c2e15.png)
-
-If this doesn't work for you, you can use the [Advanced Search](https://github.com/search/advanced?q=repo%3ALusamine%2FAnubirb&type=Code) and enter your search in "Code options > With this file name".
+Use the [Advanced Search](https://github.com/search/advanced?q=repo%3ALusamine%2FAnubirb&type=Code) and enter your search in "Code options > With this file name".
 
 ### How do I download a specific folder and not the entire repository?  
 There are many ways to do this. I manage this locally using git command line tools for sparse checkouts.  As an example:  
