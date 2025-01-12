@@ -12,7 +12,6 @@ These were all dumped directly from the game using CFW.
 For the purpose of data analysis, all of these are unmodified files dumped from an unmodified stock game except for the following:  
 * HOMEbound Pokémon from Pokémon GO were dumped from HOME as they cannot be moved into Sword/Shield.
 * Any Pokémon with the Original Trainer name "Redact" was obtained from another user and the OT was changed to maintain their privacy.
-* Shiny Pokémon from SV are the result of testing the mechanics of Meal Power and Union Circle. They are legal, not legitimate.
 
 ### Why are some files missing met location and trainer data?  
 Many wild encounters are dumped from RAM and the Pokémon was never captured to save time. This still allows for analysis of all other traits except for a few which are generated after capture.
